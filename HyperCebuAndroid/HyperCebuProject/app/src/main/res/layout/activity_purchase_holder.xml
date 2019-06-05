@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/hyperlogo" />
+
+    <TextView
+        android:id="@+id/tv_ticket_no_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty"
+        android:visibility="invisible"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/tv_type_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Type"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="₱"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/tv_price_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Price"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/tv_quantity_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty"
+        android:visibility="invisible"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/btn_purchase_holder"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/custom_button"
+        android:text="Purchase"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/hyperlogo"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/view" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_ename"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/view" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="VENUE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/tv_ename" />
+
+    <TextView
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/tv_elocation"
+        android:text="Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:text="TICKET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/tv_elocation"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+
+
+    <TextView
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/tv_price"
+        android:text="Ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:text="EVENT DATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/tv_price"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/tv_estartdate"
+        android:text="Start Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:text="CUT-OFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/tv_estartdate"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/tv_eenddate"
+        android:text="End Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:text="Present your ticket at the venue of the event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/tv_eenddate"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="Hyper Card No."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvCardNo"
+        android:layout_above="@+id/et_hypercardno"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/et_hypercardno"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hyper Card No. Here"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/btn_purchased" />
+
+    <Button
+        android:id="@+id/btn_purchased"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:text="Purchase Ticket"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

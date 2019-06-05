@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="1dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:text="EVENT:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_ename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:text="Event name" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+            android:text="VENUE:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:text="Event Description" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+            android:text="DESCRIPTION:"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:text="Event Venue"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

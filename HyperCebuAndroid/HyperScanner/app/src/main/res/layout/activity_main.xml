@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hyper Scanner"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EVENT"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+        android:id="@+id/textView6" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:id="@+id/textViewEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+        android:layout_below="@+id/textView6" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TICKET TYPE"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+        android:layout_below="@+id/textViewEvent"
+        android:id="@+id/textView" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:id="@+id/textViewType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+        android:layout_below="@+id/textView" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TICKET PRICE"
+        android:paddingTop="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/textViewType"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TICKET NO"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+        android:layout_below="@+id/textViewPrice"
+        android:id="@+id/textView3" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:id="@+id/textViewTicketNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+        android:layout_below="@+id/textView3" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE OF PURCHASED"
+        android:paddingTop="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/textViewTicketNo"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/textViewDatePurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/textView4" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="QR CODE"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:layout_below="@+id/textViewDatePurchase"
+        android:id="@+id/textView5" />
+
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:id="@+id/textViewQrCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+        android:layout_below="@+id/textView5" />
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSave"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"
+        android:text="Scan QR Code" />
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="Save QR CODE"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.arnold.hypercebuproject.RegisterActivity"
+    android:background="@color/zxing_custom_result_view">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/hyperlogo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Sign up to Hyper Cebu"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView23" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etFirstname"
+        android:hint="First name"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etLastname"
+        android:hint="Last name"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/etFirstname"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/etLastname"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etConfirmPassword"
+        android:hint="Confirm Password"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Existing user? Log in Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLoginHere"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@android:color/white"
+        android:layout_below="@+id/etConfirmPassword"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="SIGN UP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

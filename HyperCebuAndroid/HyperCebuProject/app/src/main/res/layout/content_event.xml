@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.arnold.hypercebuproject.EventActivity"
+    tools:showIn="@layout/app_bar_event"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Featured Event"
+        android:id="@+id/tvFE"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/hyperbanner"
+        android:id="@+id/ivEventBanner" />
+
+    <TextView
+        android:id="@+id/tvEventTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hyper Wangi"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/ivEventBanner" />
+
+    <TextView
+        android:id="@+id/tvEventVenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEventTitle"
+        android:text="South road properties"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/tvEventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="The best rave in town!"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/tvEventVenue" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="EVENT DATE"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/tvEventDescription"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/tvEventStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:text="2017-08-02"
+        android:paddingBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/textView21" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="CUT-OFF"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/tvEventStartDate" />
+
+    <TextView
+        android:id="@+id/tvEventEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="2017-08-04"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/textView18" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:text="Enter the biggest rave in town!"
+        android:id="@+id/tvValidateEvent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/tvEventEndDate" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JOIN EVENT"
+        android:id="@+id/btnJoin"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

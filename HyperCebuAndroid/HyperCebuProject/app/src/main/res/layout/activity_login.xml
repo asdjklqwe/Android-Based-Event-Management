@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.arnold.hypercebuproject.LoginActivity"
+    android:background="@color/zxing_custom_result_view">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/hyperlogo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Log in to access Hyper Cebu"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/imageView"
+        android:id="@+id/textView19" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView19" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/etUsername"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Remember Me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/cbRememberMe"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/etPassword" />
+
+    <TextView
+        android:text="Don't have an account? Sign up Here"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRegisterHere"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/cbRememberMe"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="LOG IN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
